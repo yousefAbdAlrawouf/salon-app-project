@@ -1,14 +1,21 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class GradientBackgroundScaffold extends StatelessWidget {
   final Widget body;
   final PreferredSizeWidget? appBar;
+  Color? firstcolor;
+  Color? secoundColor;
 
-  const GradientBackgroundScaffold({
-    Key? key,
+
+
+   GradientBackgroundScaffold({
+    super.key,
     required this.body,
     this.appBar,
-  }) : super(key: key);
+    this.firstcolor,
+    this.secoundColor
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -18,8 +25,8 @@ class GradientBackgroundScaffold extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color.fromRGBO(166, 77, 121, 1),
-              Color.fromRGBO(225, 149, 171, 1),
+              firstcolor ?? Color.fromRGBO(166, 77, 121, 1),
+              secoundColor ?? Color.fromRGBO(225, 149, 171, 1)
             ],
             begin: Alignment.centerLeft,
             end: Alignment.centerRight,

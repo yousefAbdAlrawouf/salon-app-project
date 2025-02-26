@@ -13,20 +13,20 @@ class ProductNeedItem extends StatelessWidget {
     return Container(
   decoration: BoxDecoration(
     color: Colors.white, // Background color
-    borderRadius: BorderRadius.circular(5),
+    borderRadius: BorderRadius.circular(15),
     boxShadow: [
       BoxShadow(
-        color: Colors.black.withOpacity(0.2), // Shadow color
+        color: Color.fromRGBO(227,227,227,1),
         spreadRadius: 1, 
         blurRadius: 5, 
-        offset: Offset(2, 2), // Adjust for shadow direction
+        offset: Offset(2, 2), 
       ),
     ],
   ),
       child: ListTile(
         shape: RoundedRectangleBorder(
           side: BorderSide(color: Colors.black, width: 1),
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.circular(15),
         ),
         leading: ClipRRect(
           child: Image.asset("assets/images/product.png"),

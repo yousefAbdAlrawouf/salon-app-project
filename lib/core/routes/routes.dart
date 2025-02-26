@@ -4,7 +4,7 @@ import 'package:salon_app/core/Dio/service_locator.dart';
 import 'package:salon_app/core/app_manger/app_manager_cubit.dart';
 import 'package:salon_app/core/app_manger/app_manager_state.dart';
 import 'package:salon_app/core/routes/routes_path.dart';
-import 'package:salon_app/features/Provider_App/Home_provider/presentation/pages/Order_details.dart';
+import 'package:salon_app/features/Provider_App/Home_provider/presentation/pages/Appointment_details.dart';
 import 'package:salon_app/features/Provider_App/auth/presentation/pages/failedAndSuccess.dart';
 import 'package:salon_app/features/User_App/Home_user/Presentation/Pages/home_page.dart';
 import 'package:salon_app/features/Provider_App/Home_provider/presentation/pages/home_page.dart';
@@ -95,7 +95,7 @@ class AppRoutes {
                 builder: (context, state) => FaildAndSuccess()),
             GoRoute(
                 path: RoutesPath.orderDetails,
-                builder: (context, state) => OrderDetails()),
+                builder: (context, state) => AppointmentDetails()),
             GoRoute(
                 path: RoutesPath.addNewProduct,
                 builder: (context, state) {

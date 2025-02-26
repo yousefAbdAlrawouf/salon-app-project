@@ -158,15 +158,23 @@ Card providerBookingCustomWidget(bool canEdit) {
                                         ),
                                       ),
                                     ),
-                                    TextButton(
-                                      onPressed: () {},
-                                      child: Card(
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Text("Cancel"),
-                                        ),
-                                      ),
-                                    ),
+                                      Card(
+                                  color: AppColors.bookingBackGroundColor,
+                                  shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(8),
+                                      side: BorderSide(
+                                          color: Color.fromRGBO(
+                                              227, 227, 227, 1))),
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(
+                                        top: 4.0, bottom: 4, right: 8, left: 8),
+                                    child: Text("Cancel",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.w400,
+                                            color: Color.fromRGBO(
+                                                102, 102, 102, 1))),
+                                  ),
+                                ),
                                   ],
                                 );
                               } else if (state.canEdit == true &&

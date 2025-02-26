@@ -3,8 +3,13 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:salon_app/core/constants/app_colors.dart';
 
+// ignore: must_be_immutable
 class BookingTopBarState extends StatefulWidget {
-  const BookingTopBarState({super.key});
+   BookingTopBarState({super.key,this.tapTitle,this.secoundTapTitle,this.thirdTapTitle});
+
+  String? tapTitle;
+  String? secoundTapTitle;
+  String? thirdTapTitle;
 
   @override
   State<BookingTopBarState> createState() => _BookingTopBarStateState();
@@ -17,9 +22,9 @@ class _BookingTopBarStateState extends State<BookingTopBarState> {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        _buildTab("Pending", 0),
-        _buildTab("Today", 1),
-        _buildTab("Canceled", 2),
+        _buildTab(widget.tapTitle ??"Pending", 0),
+        _buildTab(widget.secoundTapTitle ??"Today", 1),
+        _buildTab(widget.thirdTapTitle ??"Canceled", 2),
       ],
     );
   }
