@@ -71,7 +71,7 @@ class Changepassword extends StatelessWidget {
                               ),
                               validator: (value) {
                                 if ((value?.length ?? 0) < 8) {
-                                  return 'at least 8 chars '.tr();
+                                  return 'at least 8 charecs '.tr();
                                 } else {
                                   return null;
                                 }
