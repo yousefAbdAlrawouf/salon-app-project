@@ -1,0 +1,59 @@
+{
+    "hello": "مرحبا",
+    "Home": "المنزل",
+    "Search" : "ابحث",
+    "Filtter" : "فلتر",
+    "Look at the latest offers and benefit from the application services" : "اطلع على أحدث العروض واستفد من خدمات التطبيق",
+    "Our Services" : "خدماتنا",
+    "See All":"المزيد",
+    "Explore Services & Products" : "استكشف الخدمات والمنتجات",
+    "Services" : "خدمات",
+    "Product" : "منتجات",
+    "Create new account.":"انشئ حساب جديد",
+    "Enter the following info to create New Account" : "قم بادخال المعلومات التالية لانشاء حساب جديد",
+    "Add a profile picture" : "أضف صورة شخصية",
+    "female" : "أنثى",
+    "male" : "ذكر",
+    "Name" : "الأسم",
+    "John Doe": "يوسف عبد",
+    "email" : "البريد الألكتروني",
+    "phone number": "رقم الهاتف",
+    "password" : "كلمة المرور",
+    "Password" : "كلمة المرور",
+    "Confiramtion password" : "تأكيد كلمة المرور",
+    "Add Photo" : "أضف صورة",
+    "Sign Up":"سجل هنا",
+    "Already Have Account ?  ":"هل تملك حسابا ؟",
+    "Sign In":"سجل دخول",
+    "Arabic" : "العربية",
+    "English" : "الأنكليزية",
+    "Go Sign Up":"اذهب لتسجيل الحساب",
+    "Login" : "تسجيل الدخول",
+    "Forget Password?" :"هل نسيت كلمة المرور ؟",
+    "Don't Have An Account?" : "لا تملك حساب ؟ ",
+    "Phone Number" : "رقم الهاتف",
+    "Enter your number to send OTP Number" : "ادخل رقم هاتفك لارسال رمز التحقق",
+    "Next": "التالي",
+    "OTP Number" : "التحقق من الرمز",
+    "Enter the Code Sent to   to Continue Log in Regestration":"قم بادخال رمز التحقق الذي قمنا بارساله اليك",
+    "Enter The Code Here" : "اكتب هنا",
+    "Confirm" : "تأكيد",
+    "Change Password":"تغيير كلمة المرور",
+    "Create New Password":"انشاء كلمة مرور جديدة",
+    "Add Products & Services" : "أضافة منتجات و خدمات",
+    "Products" : "منتجات",
+    "Yousef Abd":"يوسف عبد",
+    "Show Products": "اظهار المنتجات"
+
+
+    
+
+
+
+
+
+
+
+
+
+}
