@@ -31,7 +31,7 @@ class OrderDetails extends StatelessWidget {
             OrderProfileDetails(),
             SizedBox(height: 12),
             OrderLocationSection(),
-            SizedBox(height: 12),
+            SizedBox(height: 13),
             SizedBox(
               child: Image.asset("assets/images/googleMap.png"),
             ),
